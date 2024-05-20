@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="portal" version="2.3.28.0">
-	<folder>classicprogress</folder>
-	<name>WoW ClassicProgress</name>
+	<folder>Cata classicprogress</folder>
+	<name>WoW Cata ClassicProgress</name>
 	<author>Motrish</author>
-	<authorEmail>nehmer.michael@gmx.de</authorEmail>
+	<authorEmail></authorEmail>
 	<creationDate>1584039058</creationDate>
 	<copyright>(C)2016 Motrish</copyright>
 	<version>1.1.2</version>
