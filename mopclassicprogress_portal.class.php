@@ -52,11 +52,21 @@ protected static $install   = [
 	'autoenable'     => '0',
 	'defaultposition'=> 'left',
 	'defaultnumber'  => '5',
+	'defaultwidth'   => '240px', // default width (pixels)
 ];
 protected static $apiLevel  = 20;
 
 public function get_settings($state) {
 	$settings = [];
+
+	// Add width setting
+	$settings['width'] = [
+		'type'     => 'text',
+		'size'     => '4',
+		'default'  => self::$install['defaultwidth'],
+		'class'    => 'js_reload',
+	];
+
 	foreach (self::$raid_info as $idx => $raid) {
 	$opt = [];
 	// First: phase label option
@@ -82,8 +92,11 @@ public function get_settings($state) {
 
 public function output() {
 	$Imagepath = $this->server_path . "portal/mopclassicprogress/media/images/";
-	$out       = "<table style='width:100%;'>\n";
-	$idx       = 1;
+	
+	$width = trim((string) $this->config('width'));	
+
+	$out = '<table style="width:'.$width.';">';
+	$idx = 1;
 
 	foreach (self::$raid_info as $raid) {
 	$cfg = $this->config("boss{$idx}");

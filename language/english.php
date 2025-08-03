@@ -14,9 +14,9 @@ if ( !defined('EQDKP_INC') ){
 
 $lang = array(
 // Phase labels
-'mop_classic_phase1' => 'Phase 1',
-'mop_classic_phase2' => 'Phase&nbsp;2',
-'mop_classic_phase3' => 'Phase&nbsp;3',
+'mop_classic_phase1' => 'Phase&nbsp;1',
+'mop_classic_phase2' => 'Phase&nbsp;3',
+'mop_classic_phase3' => 'Phase&nbsp;5',
 
 // Boss‑count states (generated for each raid)
 'mop_classic_0_6'  => '0/6',
@@ -67,6 +67,12 @@ $lang = array(
 'mop_classicprogress_f_boss3' => "Terrace of Endless Spring",
 'mop_classicprogress_f_boss4' => "Throne of Thunder",
 'mop_classicprogress_f_boss5' => "Siege of Orgrimmar",
+
+'mop_classicprogress_f_width'      => 'Width of the module (px or %)',
+'mop_classicprogress_width'        => 'Width of the module',
+'mop_classicprogress_width_note'   => 'In pixels (z.B. 240) or percent (z.B. 100%).',
+'mop_classicprogress_width_suffix' => 'px',
+
 );
 
 $lang['test']						= array('Open','DOWN');

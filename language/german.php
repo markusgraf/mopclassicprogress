@@ -15,8 +15,8 @@ if ( !defined('EQDKP_INC') ){
 $lang = array(
 	// Phase labels
 	'mop_classic_phase1' => 'Phase 1',
-	'mop_classic_phase2' => 'Phase&nbsp;2',
-	'mop_classic_phase3' => 'Phase&nbsp;3',
+	'mop_classic_phase2' => 'Phase&nbsp;3',
+	'mop_classic_phase3' => 'Phase&nbsp;5',
 	
 	// Boss‑count states (generated for each raid)
 	'mop_classic_0_6'  => '0/6',
@@ -67,6 +67,12 @@ $lang = array(
 'mop_classicprogress_f_boss3' => 'Terrasse des Endlosen Frühlings',
 'mop_classicprogress_f_boss4' => 'Thron des Donners',
 'mop_classicprogress_f_boss5' => 'Schlacht um Orgrimmar',
+
+'mop_classicprogress_f_width'      => 'Breite des Moduls (px oder %)',
+'mop_classicprogress_width'        => 'Breite des Moduls',
+'mop_classicprogress_width_note'   => 'In Pixeln (z.B. 240) oder Prozent (z.B. 100%).',
+'mop_classicprogress_width_suffix' => 'px',
+
 );
 
 $lang['test']						= array('Open','DOWN');
