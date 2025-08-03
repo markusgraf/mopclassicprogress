@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="portal" version="2.3.28.0">
-	<folder>Cata classicprogress</folder>
-	<name>WoW Cata ClassicProgress</name>
+	<folder>MoP classicprogress</folder>
+	<name>WoW MoP ClassicProgress</name>
 	<author>Motrish</author>
 	<authorEmail></authorEmail>
 	<creationDate>1584039058</creationDate>
