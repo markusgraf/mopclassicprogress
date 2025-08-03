@@ -82,7 +82,7 @@ public function get_settings($state) {
 
 public function output() {
 	$Imagepath = $this->server_path . "portal/mopclassicprogress/media/images/";
-	$out       = "<table style='width:240px;'>\n";
+	$out       = "<table style='width:100%;'>\n";
 	$idx       = 1;
 
 	foreach (self::$raid_info as $raid) {
